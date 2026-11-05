@@ -1,6 +1,6 @@
 title: "Hope & Positivity"
 description: "আশা, ইতিবাচকতা ও অনুপ্রেরণার গল্প"
-theme: minima
+theme: jekyll-theme-minimal
 lang: bn
 header_pages:
   - index.md
