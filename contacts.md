@@ -16,8 +16,8 @@ For business inquiries, content collaborations, or partnerships, contact us thro
 - [Instagram](https://instagram.com/hope_n_positivity)
 - [YouTube](https://youtube.com/@hopenpositivity)
 - [TikTok](https://tiktok.com/@hopeandpositivity)
-- [Email](mailto:muhabbothossainpabna@gmail.com): muhabbothossainpabna@gmail.com
-- [WhatsApp](https://wa.me/8801710351835): +8801710351835
+- [Email](mailto:muhabbothossainpabna@gmail.com)
+- [WhatsApp](https://wa.me/8801710351835)
 
 আমাদের সঙ্গে যোগাযোগ ও সহযোগিতার জন্য ধন্যবাদ।
 
