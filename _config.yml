@@ -3,7 +3,7 @@ description: "আশা, ইতিবাচকতা ও অনুপ্রে�
 theme: jekyll-theme-minimal
 lang: bn
 header_pages:
-  - Home.md
+  - Home
   - index.md
-  - contact.md
+  - contacts.md
   - disclaimer.md
