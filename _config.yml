@@ -4,6 +4,5 @@ theme: jekyll-theme-minimal
 lang: bn
 header_pages:
   - Home
-  - index.md
   - contacts.md
   - disclaimer.md
