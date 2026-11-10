@@ -4,12 +4,15 @@ title: "Hope & Positivity"
 permalink: /
 ---
 
-## আশা ও ইতিবাচকতার গল্পে স্বাগতম
+<div class="home-hero">
+  <p class="eyebrow">আশা · ইতিবাচকতা · ব্যক্তিগত উন্নতি</p>
+  <h2>প্রতিদিনের জীবনে খুঁজে নিন নতুন অনুপ্রেরণা</h2>
+  <p class="hero-copy">অনুপ্রেরণামূলক গল্প, ইতিবাচক ভাবনা ও ব্যক্তিগত উন্নতির লেখার মাধ্যমে এগিয়ে চলুন আশা, উদ্দেশ্য ও আত্মবিশ্বাস নিয়ে।</p>
+  <a class="hero-link" href="#recent-stories">সাম্প্রতিক গল্পগুলো পড়ুন <span aria-hidden="true">↓</span></a>
+</div>
 
-অনুপ্রেরণামূলক গল্প, ইতিবাচক ভাবনা ও ব্যক্তিগত উন্নতির লেখার মাধ্যমে প্রেরণা খুঁজুন।
-
-<div style="max-width: 970px; width: 100%; margin: 24px auto; text-align: center;">
-  <!-- Test 001 -->
+<div class="ad-container" aria-label="বিজ্ঞাপন">
+  <span class="ad-label">বিজ্ঞাপন</span>
   <ins class="adsbygoogle"
        style="display:block"
        data-ad-client="ca-pub-1195424296838471"
@@ -21,17 +24,31 @@ permalink: /
   </script>
 </div>
 
-## সাম্প্রতিক গল্প
+<div class="section-heading" id="recent-stories">
+  <p class="eyebrow">পড়ুন ও অনুপ্রাণিত হোন</p>
+  <h2>সাম্প্রতিক গল্প</h2>
+</div>
 
 {% assign recent_posts = site.posts | slice: 0, 10 %}
 {% if recent_posts.size > 0 %}
+<ul class="story-list">
 {% for post in recent_posts %}
-- [{{ post.title }}]({{ post.url | relative_url }})
+  <li class="story-card">
+    <a href="{{ post.url | relative_url }}">
+      <span class="story-title">{{ post.title }}</span>
+      <span class="story-arrow" aria-hidden="true">→</span>
+    </a>
+    {% if post.excerpt %}<p>{{ post.excerpt | strip_html | truncate: 150 }}</p>{% endif %}
+  </li>
 {% endfor %}
+</ul>
 {% else %}
-নতুন গল্প শিগগিরই প্রকাশিত হবে।
+<p class="empty-state">নতুন গল্প শিগগিরই প্রকাশিত হবে।</p>
 {% endif %}
 
-[আমাদের সম্পর্কে]({{ '/about/' | relative_url }}) · [যোগাযোগ করুন]({{ '/contact/' | relative_url }})
+<div class="home-links">
+  <a href="{{ '/about/' | relative_url }}">আমাদের সম্পর্কে</a>
+  <a href="{{ '/contact/' | relative_url }}">যোগাযোগ করুন</a>
+</div>
 
-*Choose Hope. Share Positivity. Inspire Growth*
+<p class="site-motto">Choose Hope. Share Positivity. Inspire Growth.</p>
