@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<article class="post-article">
+  <header class="article-header">
+    <a class="back-link" href="{{ '/' | relative_url }}">← হোমে ফিরুন</a>
+    <p class="eyebrow">অনুপ্রেরণার গল্প</p>
+    <h1>{{ page.title }}</h1>
+    <div class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time><span aria-hidden="true">·</span><span>{{ page.author | default: "Hope & Positivity সম্পাদকীয় দল" }}</span></div>
+  </header>
+  <div class="article-content post-content">{{ content }}</div>
+  <aside class="author-card" aria-label="লেখক পরিচিতি">
+    <div class="author-avatar" aria-hidden="true">H</div>
+    <div><p class="author-kicker">লেখক</p><h2>{{ page.author | default: "Hope & Positivity সম্পাদকীয় দল" }}</h2><p>আশা, ইতিবাচকতা ও ব্যক্তিগত উন্নতির অনুপ্রেরণামূলক গল্প আপনাদের সঙ্গে ভাগ করে নিচ্ছি।</p></div>
+  </aside>
+  <nav class="post-end-nav" aria-label="আরও পড়ুন"><a href="{{ '/' | relative_url }}#recent-stories">আরও গল্প পড়ুন →</a></nav>
+</article>
